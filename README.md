@@ -37,13 +37,13 @@ DRS-Analyzer integrates multiple analysis modules for complete DRS data processi
 # Pull the pre-configured Docker image
 docker pull yvzeng/drs-analyzer-env:latest
 
-# You can also create the container by yourself based on the Dockefile.
-git clone https://github.com/yourusername/DRS-Analyzer.git
+# You can also create the container by yourself based on the Dockerfile.
+git clone https://github.com/lishenglilab/DRS-Analyzer.git
 cd DRS-Analyzer
 docker build -t drs-analyzer-env .
 
 # Clone the repository
-git clone https://github.com/yourusername/DRS-Analyzer.git
+git clone https://github.com/lishenglilab/DRS-Analyzer.git
 cd DRS-Analyzer
 ```
 
